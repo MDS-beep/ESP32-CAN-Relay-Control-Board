@@ -30,14 +30,17 @@ The project also served as an exercise in PCB design, CAN bus communication, har
 
 ## Project Images
 
-### 3D Model
-![3D Model](images/3d_model.png)
+### 3D Model - Front
+![3D Model - Front](Images/PCB_Front.png)
+
+### 3D Model - Back
+![3D Model - Back](Images/PCB_Back.png)
 
 ### PCB Layout
-![PCB Layout](images/pcb_layout.png)
+![PCB Layout](Images/PCB_Layout.png)
 
-### Wiring Diagram
-![Wiring Diagram](images/wiring_diagram.png)
+### Schematic
+![Schematic](Images/Schematic.png)
 
 ---
 
