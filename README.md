@@ -18,6 +18,8 @@ External devices can be connected to the relay outputs to switch loads such as l
 
 The board is powered using a stable power supply, with onboard voltage regulation and decoupling capacitors ensuring stable operation.
 
+!!!! When using the relays to switch live voltages, please be carefull !!!!
+
 ---
 
 ## Why This Project Was Made
@@ -25,6 +27,22 @@ The board is powered using a stable power supply, with onboard voltage regulatio
 This project was created to build a flexible CAN-based IO interface that can easily integrate with systems using a Victron Cerbo or other CAN-enabled devices. The goal was to design a compact and robust PCB that provides both control outputs and signal inputs with proper electrical isolation.
 
 The project also served as an exercise in PCB design, CAN bus communication, hardware isolation using optocouplers, and embedded system development using the ESP32 platform.
+
+---
+
+## ⚠️ Safety Warning
+
+**When using the relays to switch live voltages, please be extremely careful.**
+
+This board is capable of switching high voltages (such as mains voltage), which can be dangerous and potentially life-threatening if handled incorrectly.
+
+- Always disconnect power before working on the circuit  
+- Ensure proper insulation and secure connections  
+- Do not touch the board while it is powered  
+- Use an appropriate enclosure when operating at high voltage  
+
+The creator of this project is not responsible for any damage or injury caused by improper use.
+
 
 ---
 
